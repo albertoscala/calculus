@@ -97,6 +97,30 @@ The conjugate method is used to simplify the function by multiplying the numerat
 
 The conjugate of a binomial $a+b$ is $a-b$. For example, the conjugate of $x+3$ is $x-3$.
 
-For example, evaluate the following limit:
+**Example**
 
 $$\lim_{x \to 5} \frac{\sqrt{x+11}-4}{x-5}$$
+
+**Solution**
+
+We start solving the limit by substitution:
+
+$$\lim_{x \to 5} \frac{\sqrt{x+11}-4}{x-5} = \frac{\sqrt{x+11}-4}{x-5} = \frac{\sqrt{5+11}-4}{5-5} = \frac{0}{0}$$
+
+The limit is in an undefined form, so we can try use the conjugate method to simplify the function and try again with the substitution method.
+
+$$\lim_{x \to 5} \frac{\sqrt{x+11}-4}{x-5} \dot \frac{\sqrt{x+11}+4}{\sqrt{x+11}+4}$$
+
+$$\lim_{x \to 5} \frac{(x+11)-16}{(x-5)(\sqrt{x+11}+4)}$$
+
+$$\lim_{x \to 5} \frac{(x+11)-16}{(x-5)(\sqrt{x+11}+4)}$$
+
+$$\lim_{x \to 5} \frac{x-5}{(x-5)(\sqrt{x+11}+4)}$$
+
+We can simplify by the $x-5$ in the numerator and denominator and finally substitute
+
+$$\lim_{x \to 5} \frac{1}{\sqrt{x+11}+4} = \frac{1}{\sqrt{5+11}+4} = \frac{1}{8}$$
+
+## Indeterminated Forms
+
+
