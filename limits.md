@@ -67,9 +67,9 @@ $$\lim_{x \to a} \frac{f(x)}{g(x)} = \frac{\lim_{x \to a} f(x)}{\lim_{x \to a} g
 
 ## Solving methods
 
-### Direct substitution
+### Substitution method
 
-The limit of a function can be found by direct substitution. This method is used when the function is continuous at the point $a$.
+The limit of a function can be found by substitution. This method is used when the function is continuous at the point $a$.
 
 It can be also applied to rational functions, only if the denominator is not zero.
 
@@ -80,3 +80,23 @@ $$\lim_{x \to -1} \frac{x^{3}+4x^{2}-3}{x^{2}+5} = \frac{(-1)^{3}+4(-1)^{2}-3}{(
 This can be defined more formally as: If $P(x)$ and $Q(x)$ are polynomials and $Q(c) \neq 0$, then:
 
 $$\lim_{x \to c} \frac{P(x)}{Q(x)} = \frac{P(c)}{Q(c)}$$
+
+### Factoring method
+
+Consider the function $f(x) = \frac{x^2 - 9}{x+3}$ and the limit as $x$ approaches $-3$. We can sure use the substitution method, but we can also factor the numerator to simplify the function and then use the substitution method:
+
+$$f(x) = \frac{x^2 - 9}{x+3} = \frac{(x+3)(x-3)}{x+3} = x-3$$
+
+Then, the limit is:
+
+$$\lim_{x \to -3} f(x) = \lim_{x \to -3} x-3 = -3-3 = -6$$
+
+### Conjugate method
+
+The conjugate method is used to simplify the function by multiplying the numerator and the denominator by the conjugate of the numerator. This method is used when the function is in the form $\frac{f(x)}{g(x)}$ and the limit as $x$ approaches $a$ is an undefined form.
+
+The conjugate of a binomial $a+b$ is $a-b$. For example, the conjugate of $x+3$ is $x-3$.
+
+For example, evaluate the following limit:
+
+$$\lim_{x \to 5} \frac{\sqrt{x+11}-4}{x-5}$$
