@@ -113,8 +113,6 @@ $$\lim_{x \to 5} \frac{\sqrt{x+11}-4}{x-5}  \cdot  \frac{\sqrt{x+11}+4}{\sqrt{x+
 
 $$\lim_{x \to 5} \frac{(x+11)-16}{(x-5)(\sqrt{x+11}+4)}$$
 
-$$\lim_{x \to 5} \frac{(x+11)-16}{(x-5)(\sqrt{x+11}+4)}$$
-
 $$\lim_{x \to 5} \frac{x-5}{(x-5)(\sqrt{x+11}+4)}$$
 
 We can simplify by the $x-5$ in the numerator and denominator and finally substitute
