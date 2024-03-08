@@ -109,7 +109,7 @@ $$\lim_{x \to 5} \frac{\sqrt{x+11}-4}{x-5} = \frac{\sqrt{x+11}-4}{x-5} = \frac{\
 
 The limit is in an undefined form, so we can try use the conjugate method to simplify the function and try again with the substitution method.
 
-$$\lim_{x \to 5} \frac{\sqrt{x+11}-4}{x-5} \dot \frac{\sqrt{x+11}+4}{\sqrt{x+11}+4}$$
+$$\lim_{x \to 5} \frac{\sqrt{x+11}-4}{x-5}  \dot  \frac{\sqrt{x+11}+4}{\sqrt{x+11}+4}$$
 
 $$\lim_{x \to 5} \frac{(x+11)-16}{(x-5)(\sqrt{x+11}+4)}$$
 
