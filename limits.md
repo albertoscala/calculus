@@ -2,6 +2,17 @@
 
 ## Table of Contents
 
+- [Definition](#definition)
+- [One-Sided Limits](#one-sided-limits)
+- [Properties of Limits](#properties-of-limits)
+  - [Sum property](#sum-property)
+  - [Difference property](#difference-property)
+  - [Product property](#product-property)
+  - [Constant multiplication property](#constant-multiplication-property)
+  - [Quotient property](#quotient-property)
+- [Solving methods](#solving-methods)
+  - [Direct substitution](#direct-substitution)
+
 ## Definition
 
 Let $f(x)$ be a function. The limit is defined as the value that the function $f(x)$ approaches as $x$ approaches a certain value. The limit is denoted as $\lim_{x \to a} f(x)$.
@@ -12,11 +23,11 @@ In general the limits are equal to the value of the function, but this is only t
 
 One-sided limits are differentiated as *right-hand limits* (when the limit approaches from the right) and *left-hand limits* (when the limit approaches from the left).
 
-The right-hand limit is denoted as: 
+The right-hand limit is denoted as:
 
 $$\lim_{x \to a^+} f(x) = L$$
 
-While the left-hand limit is denoted as: 
+While the left-hand limit is denoted as:
 
 $$\lim_{x \to a^-} f(x) = L$$
 
