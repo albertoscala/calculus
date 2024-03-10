@@ -12,6 +12,9 @@
   - [Quotient property](#quotient-property)
 - [Solving methods](#solving-methods)
   - [Direct substitution](#direct-substitution)
+  - [Factoring method](#factoring-method)
+  - [Conjugate method](#conjugate-method)
+- [Indeterminated Forms and L'Hôpital's Rule](#indeterminated-forms-and-lhôpitals-rule)
 
 ## Definition
 
