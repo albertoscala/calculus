@@ -127,7 +127,7 @@ L'Hôpital's rule states that:
 
 If the limit $\lim_{x \to c} \frac{f(x)}{g(x)}$ results in one of the following indeterminate form:
 
-$$\frac{0}{0}, \pm \frac{\infty}{\infty}, 0 \cdot \pm \infty, \infty - \infty, 0^0, 1^{\infty}, \infty^{0}$$
+$$\frac{0}{0},\quad \pm \frac{\infty}{\infty},\quad 0 \cdot \pm \infty,\quad \infty - \infty,\quad 0^0, 1^{\infty},\quad \infty^{0}$$
 
 And if the $\lim_{x \to c} \frac{f'(x)}{g'(x)}$ exists with $g'(x) \neq 0$ then:
 
