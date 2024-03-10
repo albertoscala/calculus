@@ -119,6 +119,16 @@ We can simplify by the $x-5$ in the numerator and denominator and finally substi
 
 $$\lim_{x \to 5} \frac{1}{\sqrt{x+11}+4} = \frac{1}{\sqrt{5+11}+4} = \frac{1}{8}$$
 
-## Indeterminated Forms
+## Indeterminated Forms and L'Hôpital's Rule
 
+Previously, we have seen a limit that returned us the result of $\frac{0}{0}$. This is an example of an indeterminate form. As we have seen, we can solve these indeterminate forms by reformulating the problem, if it doesn't work, we can apply the Hôpital's rule.
 
+L'Hôpital's rule states that:
+
+If the limit $\lim_{x \to c} \frac{f(x)}{g(x)}$ results in one of the following indeterminate form:
+
+$$\frac{0}{0}, \pm \frac{\infty}{\infty}, 0 \cdot \pm \infty, \infty - \infty, 0^0, 1^{\infty}, \infty^{0}$$
+
+And if the $\lim_{x \to c} \frac{f'(x)}{g'(x)}$ exists with $g'(x) \neq 0$ then:
+
+$$\lim_{x \to c} \frac{f(x)}{g(x)} = \lim_{x \to c} \frac{f'(x)}{g'(x)}$$
