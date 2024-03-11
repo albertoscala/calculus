@@ -204,7 +204,7 @@ The in all the function we just consider the leading terms ignoring the rest of 
 
 We have seen how to solve limits using different methods, but there are some limits that are well-known and can be used to solve other more complex limits. These can be solve using L'Hôpital's rule but to speed up the process we can memorise them. Some of these well-known limits are:
 
-$$\lim_{x \to 0} \frac{\sin{x}}{x} = \lim_{x \to 0} \frac{\tan{x}}{x} = 1 \qquad \lim_{x \to 0} \frac{\arcsin{x}}{x} = \lim_{x \to 0} \frac{\arctan{x}}{x} = 1$$
+$$\lim_{x \to 0} \frac{\sin{x}}{x} = \lim_{x \to 0} \frac{\tan{x}}{x} = 1 \qquad \qquad \qquad \lim_{x \to 0} \frac{\arcsin{x}}{x} = \lim_{x \to 0} \frac{\arctan{x}}{x} = 1$$
 
 $$$$
 
