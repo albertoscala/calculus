@@ -17,6 +17,7 @@
     - [Factoring method](#factoring-method)
     - [Conjugate method](#conjugate-method)
   - [Indeterminated Forms and L'Hôpital's Rule](#indeterminated-forms-and-lhôpitals-rule)
+  - [Limits to Infinity](#limits-to-infinity)
 
 ## Definition
 
@@ -140,4 +141,25 @@ $$\lim_{x \to c} \frac{f(x)}{g(x)} = \lim_{x \to c} \frac{f'(x)}{g'(x)}$$
 
 **Examples**
 
-Solve the following limit: $\lim_{x \to 0} \frac{\exp^x-1}{x}$
+Solve the following limit: $\lim_{x \to 0} \frac{e^x-1}{x}$
+
+$$\lim_{x \to 0} \frac{e^x-1}{x} = \frac{1-1}{0} = \frac{0}{0}$$
+
+Indeterminate form, we can apply L'Hôpital's rule:
+
+$$\lim_{x \to 0} \frac{e^x}{1} = 1$$
+
+Solve the following limit: $\lim_{x \to 0^+} x * \ln(x)$
+
+$$\lim_{x \to 0^+} x * \ln(x) = 0 * \ln(0) = 0 * - \infty$$
+
+Indeterminate form, we can apply L'Hôpital's rule, but before we have to rewrite the function as $\frac{f(x)}{g(x)}$:
+
+$$\frac{\ln(x)}{\frac{1}{x}} = x * \ln(x)$$
+
+Then, we can apply L'Hôpital's rule:
+
+$$\lim_{x \to 0^+} \frac{\ln(x)}{\frac{1}{x}} = \lim_{x \to 0^+} \frac{\frac{1}{x}}{-\frac{1}{x^2}} = \lim_{x \to 0^+} -x = 0$$
+
+## Limits to Infinity
+
