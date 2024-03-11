@@ -2,19 +2,21 @@
 
 ## Table of Contents
 
-- [Definition](#definition)
-- [One-Sided Limits](#one-sided-limits)
-- [Properties of Limits](#properties-of-limits)
-  - [Sum property](#sum-property)
-  - [Difference property](#difference-property)
-  - [Product property](#product-property)
-  - [Constant multiplication property](#constant-multiplication-property)
-  - [Quotient property](#quotient-property)
-- [Solving methods](#solving-methods)
-  - [Direct substitution](#direct-substitution)
-  - [Factoring method](#factoring-method)
-  - [Conjugate method](#conjugate-method)
-- [Indeterminated Forms and L'Hôpital's Rule](#indeterminated-forms-and-lhôpitals-rule)
+- [Limits](#limits)
+  - [Table of Contents](#table-of-contents)
+  - [Definition](#definition)
+  - [One-Sided Limits](#one-sided-limits)
+  - [Properties of Limits](#properties-of-limits)
+    - [Sum property](#sum-property)
+    - [Difference property](#difference-property)
+    - [Product property](#product-property)
+    - [Constant multiplication property](#constant-multiplication-property)
+    - [Quotient property](#quotient-property)
+  - [Solving methods](#solving-methods)
+    - [Substitution method](#substitution-method)
+    - [Factoring method](#factoring-method)
+    - [Conjugate method](#conjugate-method)
+  - [Indeterminated Forms and L'Hôpital's Rule](#indeterminated-forms-and-lhôpitals-rule)
 
 ## Definition
 
@@ -136,3 +138,6 @@ And if the $\lim_{x \to c} \frac{f'(x)}{g'(x)}$ exists with $g'(x) \neq 0$ then:
 
 $$\lim_{x \to c} \frac{f(x)}{g(x)} = \lim_{x \to c} \frac{f'(x)}{g'(x)}$$
 
+**Examples**
+
+Solve the following limit: $\lim_{x \to 0} \frac{\exp^x-1}{x}$
