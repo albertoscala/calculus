@@ -212,13 +212,13 @@ $$\lim_{x \to 0} \frac{e^x - 1}{x} = 1$$
 
 $$\lim_{x \to 0} \frac{a^x - 1}{x} = \ln{a}$$
 
-$$\lim_{x \to 0} \frac{\ln{x + 1}}{x} = 1$$
+$$\lim_{x \to 0} \frac{\ln{(x + 1)}}{x} = 1$$
 
 $$\lim_{x \to 0} (1 + x)^{\frac{1}{x}} = \lim_{|x| \to \infty} (1 + \frac{1}{x})^x = e$$
 
 $$\lim_{x \to 0} \frac{x - \sin{x}}{x^3} = \frac{1}{6}$$
 
-$$\lim_{x \to 0} \frac{x - \ln{1 + x}}{x^2} = \frac{1}{2}$$
+$$\lim_{x \to 0} \frac{x - \ln{(1 + x)}}{x^2} = \frac{1}{2}$$
 
 $$\lim_{x \to 0} \frac{e - (1 + x)^{\frac{1}{x}}}{x} = \frac{e}{2}$$
 
