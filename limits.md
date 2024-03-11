@@ -208,9 +208,9 @@ $$\lim_{x \to 0} \frac{\sin{x}}{x} = \lim_{x \to 0} \frac{\tan{x}}{x} = 1 \qquad
 
 $$$$
 
-$$\lim_{x \to 0} \frac{e^x - 1}{x} = 1$$
+$$\lim_{x \to 0} \frac{e^x - 1}{x} = 1 \qquad \qquad \qquad \lim_{x \to 0} \frac{a^x - 1}{x} = \ln{a}$$
 
-$$\lim_{x \to 0} \frac{a^x - 1}{x} = \ln{a}$$
+$$$$
 
 $$\lim_{x \to 0} \frac{\ln{x + 1}}{x} = 1$$
 
