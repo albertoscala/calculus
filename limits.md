@@ -135,3 +135,4 @@ $$\frac{0}{0},\quad \pm \frac{\infty}{\infty},\quad 0 \cdot \pm \infty,\quad \in
 And if the $\lim_{x \to c} \frac{f'(x)}{g'(x)}$ exists with $g'(x) \neq 0$ then:
 
 $$\lim_{x \to c} \frac{f(x)}{g(x)} = \lim_{x \to c} \frac{f'(x)}{g'(x)}$$
+
