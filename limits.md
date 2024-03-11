@@ -204,10 +204,22 @@ The in all the function we just consider the leading terms ignoring the rest of 
 
 We have seen how to solve limits using different methods, but there are some limits that are well-known and can be used to solve other more complex limits. These can be solve using L'Hôpital's rule but to speed up the process we can memorise them. Some of these well-known limits are:
 
-$$\lim_{x \to 0} \frac{\sin{x}}{x} = \lim_{x \to 0} \frac{\tan{x}}{x} = 1 \qquad \qquad \qquad \lim_{x \to 0} \frac{\arcsin{x}}{x} = \lim_{x \to 0} \frac{\arctan{x}}{x} = 1$$
+$$\lim_{x \to 0} \frac{\sin{x}}{x} = \lim_{x \to 0} \frac{\tan{x}}{x} = 1$$
 
-$$\lim_{x \to 0} \frac{e^x - 1}{x} = 1 \qquad \qquad \qquad \lim_{x \to 0} \frac{a^x - 1}{x} = \ln{a} \qquad \qquad \qquad \lim_{x \to 0} \frac{\ln{x + 1}}{x} = 1 $$
+$$\lim_{x \to 0} \frac{\arcsin{x}}{x} = \lim_{x \to 0} \frac{\arctan{x}}{x} = 1$$
 
-$$\lim_{x \to 0} (1 + x)^{\frac{1}{x}} = e \qquad \qquad \qquad \lim_{|x| \to \infty} (1 + \frac{1}{x})^x = e$$
+$$\lim_{x \to 0} \frac{e^x - 1}{x} = 1$$
 
-$$\lim_{x \to 0} \frac{x - \sin{x}}{x^3} = \frac{1}{6} \qquad \qquad \qquad \lim_{x \to 0} \frac{x - \ln{1 + x}}{x^2} = \frac{1}{2} \qquad \qquad \qquad \lim_{x \to 0} \frac{e - (1 + x)^{\frac{1}{x}}}{x} = \frac{e}{2}$$
+$$\lim_{x \to 0} \frac{a^x - 1}{x} = \ln{a}$$
+
+$$\lim_{x \to 0} \frac{\ln{x + 1}}{x} = 1$$
+
+$$\lim_{x \to 0} (1 + x)^{\frac{1}{x}} = \lim_{|x| \to \infty} (1 + \frac{1}{x})^x = e$$
+
+$$\lim_{x \to 0} (1 + x)^{\frac{1}{x}} = e$$
+
+$$\lim_{x \to 0} \frac{x - \sin{x}}{x^3} = \frac{1}{6}$$
+
+$$\lim_{x \to 0} \frac{x - \ln{1 + x}}{x^2} = \frac{1}{2}$$
+
+$$\lim_{x \to 0} \frac{e - (1 + x)^{\frac{1}{x}}}{x} = \frac{e}{2}$$
