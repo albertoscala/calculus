@@ -18,6 +18,7 @@
     - [Conjugate method](#conjugate-method)
   - [Indeterminated Forms and L'Hôpital's Rule](#indeterminated-forms-and-lhôpitals-rule)
   - [Limits to Infinity](#limits-to-infinity)
+  - [Well-Known Limits](#well-known-limits)
 
 ## Definition
 
@@ -163,3 +164,54 @@ $$\lim_{x \to 0^+} \frac{\ln(x)}{\frac{1}{x}} = \lim_{x \to 0^+} \frac{\frac{1}{
 
 ## Limits to Infinity
 
+While working with limits, sometimes we are also interested on what happens when a certain function $f(x)$ behaves when approaches infinity.
+
+To work with limits to infinity, we can use the following properties:
+
+1. Every function as a rate of growth. Generally speaking the hierarchy of growth is: 
+
+$$x! > n^x > x^n > x \log{x} > x > \log{x} > n$$
+
+2. If the degree of the numerator is less than the degree of the denominator, then the limit is equal to zero. The reason behind this is that the denominator grows faster than the numerator so we are dividing a smaller number by a larger number.
+
+**Example**
+
+Solve the following limit: $\lim_{x \to \infty} \frac{5x^3 - 2x^2 + 7x - 13}{12 - 2x + x^4}$
+
+$$\lim_{x \to \infty} \frac{5x^3 - 2x^2 + 7x - 13}{12 - 2x + x^4} = \frac{x^3}{x^4} = \frac{1}{x} = \frac{1}{\infty} = 0$$
+
+3. If the degree of the numerator is greater than the degree of the denominator, then the limit is equal to infinity. The reason behind this is that the numerator grows faster than the denominator so we are dividing a larger number by a smaller number.
+
+**Example**
+
+Solve the following limit: $\lim_{x \to \infty} \frac{x! - \log{x} + 1}{2^x +3x^5 - 5 \log{x}}$
+
+$$\lim_{x \to \infty} \frac{x! - \log{x} + 1}{2^x +3x^5 - 5 \log{x}} = \lim_{x \to \infty} \frac{x!}{2^x} = \infty$$
+
+4. If the degree of the numerator is equal to the degree of the denominator, then the limit is equal to the ratio of the leading coefficients.
+
+**Example**
+
+Solve the following limit: $\lim_{x \to \infty} \frac{3x^3 - 2x^2 + 7x - 13}{12x^3 - 2x^2 + x^4}$
+
+$$\lim_{x \to \infty} \frac{3x^3 - 2x^2 + 7x - 13}{12x^3 - 2x^2 + x^4} = \lim_{x \to \infty} \frac{3x^3}{12x^3} = \frac{1}{4}$$
+
+*Note*
+
+The in all the function we just consider the leading terms ignoring the rest of the terms because the character of the function is determined by the strongest term.
+
+## Well-Known Limits
+
+We have seen how to solve limits using different methods, but there are some limits that are well-known and can be used to solve other more complex limits. These can be solve using L'Hôpital's rule but to speed up the process we can memorise them. Some of these well-known limits are:
+
+$$\lim_{x \to 0} \frac{\sin{x}}{x} = \lim_{x \to 0} \frac{\tan{x}}{x} = 1$$
+
+$$\lim_{x \to 0} \frac{\arcsin{x}}{x} = \lim_{x \to 0} \frac{\arctan{x}}{x} = 1$$
+
+$$\lim_{x \to 0} \frac{e^x - 1}{x} = 1$$
+
+$$\lim_{x \to 0} \frac{a^x - 1}{x} = \ln{a}$$
+
+$$\lim_{x \to 0} \frac{\ln{x + 1}}{x} = 1$$
+
+$$\lim_{x \to 0} (1 + x)^{\frac{1}{x}} = e$$
