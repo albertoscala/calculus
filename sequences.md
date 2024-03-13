@@ -39,6 +39,6 @@ In the second and third notations, $a_n$ is usually given by a formula.
 
 To understand better the concept of sequences, let's calculate the first 5 terms of the following sequences:
 
-$$\lBrace \frac{n + 1}{n^2} \rBrace_{n=1}^{\infty} = $$
+1. $$\lbrace \frac{n + 1}{n^2} \rbrace_{n=1}^{\infty} = $$
 
-$$\lBrace \frac{(-1)^{n + 1}}{2^n} \rBrace_{n=1}^{\infty} = $$
+2. $$\lbrace \frac{(-1)^{n + 1}}{2^n} \rbrace_{n=1}^{\infty} = $$
