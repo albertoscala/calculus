@@ -34,3 +34,11 @@ A sequence can be represented in a few different ways. The most common ones are:
 $$\lbrace a_1, a_2, \cdots, a_n, a_{n+1}, \cdots \rbrace \quad \lbrace a_n \rbrace \quad \lbrace a_n \rbrace_{n=1}^{\infty}$$
 
 In the second and third notations, $a_n$ is usually given by a formula.
+
+**Examples**
+
+To understand better the concept of sequences, let's calculate the first 5 terms of the following sequences:
+
+$$\lBrace \frac{n + 1}{n^2} \rBrace_{n=1}^{\infty} = $$
+
+$$\lBrace \frac{(-1)^{n + 1}}{2^n} \rBrace_{n=1}^{\infty} = $$
