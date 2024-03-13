@@ -66,7 +66,7 @@ $$
   \lim_{n \to \infty} r^n = 
     \begin{cases}
       0, & \text{if}\ -1 < r < 1 \\
-      1, & \text{if} r = 1
+      1, & \text{if}\ r = 1
     \end{cases}
 \end{equation}
 $$
