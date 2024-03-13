@@ -61,10 +61,12 @@ Something that we might find very useful to know about a sequence is if it conve
 
 The sequence $\lbrace r^n \rbrace$ converges if $-1 < r \leq 1$ and diverges for all other values of $r$. Also,
 
-$$\begin{equation}
-    \lim_{n \to \infty} r^n = 
+$$
+\begin{equation}
+  \lim_{n \to \infty} r^n = 
     \begin{cases}
-      0, & \text{if}\ a=1 \\
-      1, & \text{otherwise}
+      0, & \text{if}\ -1 < r < 1 \\
+      1, & \text{if} r = 1
     \end{cases}
-  \end{equation}$$
+\end{equation}
+$$
