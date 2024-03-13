@@ -59,6 +59,14 @@ Something that we might find very useful to know about a sequence is if it conve
 
 **Theorem**
 
+If $\lim_{n \to \infty} |a_n| = 0 then \lim_{n \to \infty} a_n = 0$
+
+*Note*
+
+The previously enounced theorem **ONLY** works when the limit is equal to 0. It is not valid for any other value.
+
+**Theorem**
+
 The sequence $\lbrace r^n \rbrace$ converges if $-1 < r \leq 1$ and diverges for all other values of $r$. Also,
 
 $$
@@ -70,3 +78,13 @@ $$
     \end{cases}
 \end{equation}
 $$
+
+**Examples**
+
+$$\lbrace \frac{3n^2 - 1}{10n + 5n^2} \rbrace_{n=2}^{\infty}$$
+
+$$\lbrace \frac{e^{2n}}{n} \rbrace_{n=1}^{\infty}$$
+
+$$\lbrace \frac{(-1)^n}{n} \rbrace_{n=1}^{\infty}$$
+
+$$\lbrace (-1)^n \rbrace_{n=0}^{\infty}$$
