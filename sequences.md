@@ -14,9 +14,14 @@ A sequence is a list of numbers written in a specific order. It may or may not h
 
 Sequence terms are denoted as follow:
 
-$$a_1 - first term$$
-$$a_2 - second term$$
+$$a_1 - first \space term$$
+
+$$a_2 - second \space term$$
+
 $$\vdots$$
-$$a_n - n^{th} term$$
-$$a_{n+1} - (n+1)^{st} term$$
+
+$$a_n - n^{th} \space term$$
+
+$$a_{n+1} - (n+1)^{st} \space term$$
+
 $$\vdots$$
