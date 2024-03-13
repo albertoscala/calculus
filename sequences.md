@@ -16,12 +16,7 @@ Sequence terms are denoted as follow:
 
 $$a_1 - first term$$
 $$a_2 - second term$$
-$$.$$
-$$.$$
-$$.$$
+$$\vdots$$
 $$a_n - n^{th} term$$
 $$a_{n+1} - (n+1)^{st} term$$
-$$.$$
-$$.$$
-$$.$$
-
+$$\vdots$$
