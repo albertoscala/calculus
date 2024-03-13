@@ -39,6 +39,6 @@ In the second and third notations, $a_n$ is usually given by a formula.
 
 To understand better the concept of sequences, let's calculate the first 5 terms of the following sequences:
 
-1. $\lbrace \frac{n + 1}{n^2} \rbrace_{n=1}^{\infty} = \lbrace 2, \frac{3}{4}, \frac{4}{9}, \frac{5}{16}, \frac{6}{25}, \cdots \rbrace$
+$$\lbrace \frac{n + 1}{n^2} \rbrace_{n=1}^{\infty} = \lbrace 2, \frac{3}{4}, \frac{4}{9}, \frac{5}{16}, \frac{6}{25}, \cdots \rbrace$$
 
-2. $\lbrace \frac{(-1)^{n + 1}}{2^n} \rbrace_{n=1}^{\infty} = \lbrace -1, \frac{1}{2}, -\frac{1}{4}, \frac{1}{8}, -\frac{1}{16}, \cdots \rbrace$
+$$\lbrace \frac{(-1)^{n + 1}}{2^n} \rbrace_{n=1}^{\infty} = \lbrace -1, \frac{1}{2}, -\frac{1}{4}, \frac{1}{8}, -\frac{1}{16}, \cdots \rbrace$$
