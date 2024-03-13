@@ -85,6 +85,6 @@ $$\lbrace \frac{3n^2 - 1}{10n + 5n^2} \rbrace_{n=2}^{\infty}$$
 
 $$\lbrace \frac{e^{2n}}{n} \rbrace_{n=1}^{\infty}$$
 
-$$\lbrace \frac{(-1)^n}{n} \rbrace_{n=1}^{\infty}$$
+$$\left{ \frac{(-1)^n}{n} \right}_{n=1}^{\infty}$$
 
 $$\lbrace (-1)^n \rbrace_{n=0}^{\infty}$$
