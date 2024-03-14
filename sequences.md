@@ -89,7 +89,11 @@ $$\lim_{n \to \infty} \frac{3n^2 - 1}{10n + 5n^2} = \lim_{n \to \infty} \frac{n^
 
 $$\lim_{n \to \infty} \frac{e^{2n}}{n} = \lim_{n \to \infty} 2e^{2n} = \infty$$
 
-3. Evaluate the following sequence: $\lbrace \frac{(-1)^n}{n} \rbrace_{n=1}^{\infty}$ <br>$$\lim_{n \to \infty} \frac{(-1)^n}{n} = \lim_{n \to \infty} |\frac{(-1)^n}{n}| = \lim_{n \to \infty} \frac{1}{n} = 0$$<br>Using the previously enounced theorem, we can say that the sequence $\lbrace \frac{(-1)^n}{n} \rbrace$ converges to 0.
+3. Evaluate the following sequence: $\lbrace \frac{(-1)^n}{n} \rbrace_{n=1}^{\infty}$
+
+$$\lim_{n \to \infty} \frac{(-1)^n}{n} = \lim_{n \to \infty} |\frac{(-1)^n}{n}| = \lim_{n \to \infty} \frac{1}{n} = 0$$
+
+Using the previously enounced theorem, we can say that the sequence $\lbrace \frac{(-1)^n}{n} \rbrace$ converges to 0.
 
 4. Evaluate the following sequence: $\lbrace (-1)^n \rbrace_{n=0}^{\infty}$ <br><br>From the previous theorem, we know that the sequence $\lbrace r^n \rbrace$ converges if $-1 < r \leq 1$ and diverges for all other values of $r$. In this case, $r = -1$ and the sequence diverges.
 
