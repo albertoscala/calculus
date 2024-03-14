@@ -93,10 +93,8 @@ $$\lim_{n \to \infty} \frac{e^{2n}}{n} = \lim_{n \to \infty} 2e^{2n} = \infty$$
 
 $$\lim_{n \to \infty} \frac{(-1)^n}{n} = \lim_{n \to \infty} |\frac{(-1)^n}{n}| = \lim_{n \to \infty} \frac{1}{n} = 0$$
 
-> Using the previously enounced theorem, we can say that the sequence $\lbrace \frac{(-1)^n}{n} \rbrace$ converges to 0.
+Using the previously enounced theorem, we can say that the sequence $\lbrace \frac{(-1)^n}{n} \rbrace$ converges to 0.
 
-4. Evaluate the following sequence: $\lbrace (-1)^n \rbrace_{n=0}^{\infty}$
-
-> From the previous theorem, we know that the sequence $\lbrace r^n \rbrace$ converges if $-1 < r \leq 1$ and diverges for all other values of $r$. In this case, $r = -1$ and the sequence diverges.
+4. Evaluate the following sequence: $\lbrace (-1)^n \rbrace_{n=0}^{\infty}$ <br><br>From the previous theorem, we know that the sequence $\lbrace r^n \rbrace$ converges if $-1 < r \leq 1$ and diverges for all other values of $r$. In this case, $r = -1$ and the sequence diverges.
 
 > Later we will find out that the sequence $\lbrace (-1)^n \rbrace$ is not a sequence that neither converges nor diverges but it is a sequence that oscillates between -1 and 1, also known as an **oscillant sequence**.
