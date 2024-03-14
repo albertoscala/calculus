@@ -81,10 +81,10 @@ $$
 
 **Examples**
 
-$$\lbrace \frac{3n^2 - 1}{10n + 5n^2} \rbrace_{n=2}^{\infty}$$
+$$\lbrace \frac{3n^2 - 1}{10n + 5n^2} \rbrace_{n=2}^{\infty} = \lim_{x \to \infty} \frac{n^2 (3 - \frac{1}{n^2})}{n^2 (5 + \frac{10}{n})} = \frac{3}{5}$$
 
-$$\lbrace \frac{e^{2n}}{n} \rbrace_{n=1}^{\infty}$$
+$$\lbrace \frac{e^{2n}}{n} \rbrace_{n=1}^{\infty} = \lim_{x \to \infty} 2e^{2n} = \infty$$
 
-$$\lbrace \frac{(-1)^n}{n} \rbrace_{n=1}^{\infty}$$
+$$\lbrace \frac{(-1)^n}{n} \rbrace_{n=1}^{\infty} = \lim_{x \to \infty} |\frac{(-1)^n}{n}| = \lim_{x \to \infty} \frac{1}{n} = 0$$
 
 $$\lbrace (-1)^n \rbrace_{n=0}^{\infty}$$
