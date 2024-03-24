@@ -8,6 +8,13 @@
   - [Notation](#notation)
   - [Graphical Meaning](#graphical-meaning)
   - [Convergence and Divergence](#convergence-and-divergence)
+  - [More Definitions](#more-definitions)
+    - [Increasing Sequence](#increasing-sequence)
+    - [Decreasing Sequence](#decreasing-sequence)
+    - [Monotonic Sequence](#monotonic-sequence)
+    - [Bounded Below Sequence](#bounded-below-sequence)
+    - [Bounded Above Sequence](#bounded-above-sequence)
+    - [Bounded Sequence](#bounded-sequence)
 
 ## Definition
 
@@ -98,3 +105,32 @@ Using the previously enounced theorem, we can say that the sequence $\lbrace \fr
 4. Evaluate the following sequence: $\lbrace (-1)^n \rbrace_{n=0}^{\infty}$ <br><br>From the previous theorem, we know that the sequence $\lbrace r^n \rbrace$ converges if $-1 < r \leq 1$ and diverges for all other values of $r$. In this case, $r = -1$ and the sequence diverges.
 
 > Later we will find out that the sequence $\lbrace (-1)^n \rbrace$ is not a sequence that neither converges nor diverges but it is a sequence that oscillates between -1 and 1, also known as an **oscillant sequence**.
+
+## More Definitions
+
+Before going on with the study of sequences, let's define a few more concepts that will be useful in the future.
+
+### Increasing Sequence
+
+Given any sequence $\lbrace a_n \rbrace$, it is called an **increasing** sequence if $a_n < a_{n+1}$ for every $n$.
+
+### Decreasing Sequence
+
+Given any sequence $\lbrace a_n \rbrace$, it is called an **decreasing** sequence if $a_n > a_{n+1}$ for every $n$.
+
+### Monotonic Sequence
+
+If $\lbrace a_n \rbrace$ is either an increasing or decreasing sequence, then it is called a **monotonic** sequence. 
+
+### Bounded Below Sequence
+
+If there exists a number $m$ such that $m \leq a_n$ for every $n$, then we say that the sequence $\lbrace a_n \rbrace$ is called **bounded below**. The number $m$ is called **lower bound**.
+
+### Bounded Above Sequence
+
+If there exists a number $M$ such that $a_n \leq M$ for every $n$, then we say that the sequence $\lbrace a_n \rbrace$ is called **bounded above**. The number $M$ is called **upper bound**.
+
+### Bounded Sequence
+
+If a sequence is both bounded below and bounded above, then it is called a **bounded sequence**.
+
