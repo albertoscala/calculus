@@ -8,13 +8,14 @@
   - [Notation](#notation)
   - [Graphical Meaning](#graphical-meaning)
   - [Convergence and Divergence](#convergence-and-divergence)
-  - [More Definitions](#more-definitions)
+  - [Sequence's features](#sequences-features)
     - [Increasing Sequence](#increasing-sequence)
     - [Decreasing Sequence](#decreasing-sequence)
     - [Monotonic Sequence](#monotonic-sequence)
     - [Bounded Below Sequence](#bounded-below-sequence)
     - [Bounded Above Sequence](#bounded-above-sequence)
     - [Bounded Sequence](#bounded-sequence)
+  - [Monotone Convergence Theorem](#monotone-convergence-theorem)
 
 ## Definition
 
@@ -106,7 +107,7 @@ Using the previously enounced theorem, we can say that the sequence $\lbrace \fr
 
 > Later we will find out that the sequence $\lbrace (-1)^n \rbrace$ is not a sequence that neither converges nor diverges but it is a sequence that oscillates between -1 and 1, also known as an **oscillant sequence**.
 
-## More Definitions
+## Sequence's features
 
 Before going on with the study of sequences, let's define a few more concepts that will be useful in the future.
 
@@ -134,3 +135,6 @@ If there exists a number $M$ such that $a_n \leq M$ for every $n$, then we say t
 
 If a sequence is both bounded below and bounded above, then it is called a **bounded sequence**.
 
+## Monotone Convergence Theorem
+
+The **Monotone Convergence Theorem** states that given any bounded monotonic sequence $\lbrace a_n \rbrace$ then $\lbrace a_n \rbrace$ is convergent.
