@@ -8,7 +8,7 @@ I used the [Paul's Online Math Notes](https://tutorial.math.lamar.edu/) as a ref
 
 The topics that I will cover in this repository are:
 
-### [Algebra/Trigonometry Review]()
+### [Algebra/Trigonometry Review](algebra-trigonometry-review.md)
 
 ### [Limits](limits.md)
 
