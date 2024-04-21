@@ -39,14 +39,14 @@ Note the interesting fact that the width of the subintervals shouldn't necessari
 Note that the endpoints of the subintervals are,
 
 $$
-x_0 = a \newline
+\displaylines{x_0 = a \newline
 x_1 = a + \Delta x \newline
 x_2 = a + 2\Delta x \newline
 \vdots \newline
 x_i = a + i\Delta x \newline
 \vdots \newline
 x_{n-1} = a + (n-1)\Delta x \newline
-x_n = a + n\Delta x
+x_n = a + n\Delta x}
 $$
 
 Where the sum of all the subintervals is equal to the total interval, $a + n\Delta x = b$.
