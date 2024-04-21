@@ -18,7 +18,9 @@ The **Area Problem** is to definite integrals what the tangent and rate of chang
 Let's start understanding the problem with an example.
 Let $f(x) = x^2 - 1$ in the interval $[0, 2]$. In other words we want to determine the area below the graph.
 
-We can't calculate the exact area, but we can approximate it by dividing the interval into $n$ subintervals of equal width $\Delta x = \frac{b - a}{n}$.
+We can't calculate the exact area, but we can approximate it by dividing the interval into $n$ subintervals of equal width,
+
+$$\Delta x = \frac{b - a}{n}$$
 
 Then in each interval we can draw a rectangle with height $f(x_i)$ and width $\Delta x$.
 
@@ -32,21 +34,25 @@ There is also a third way to estimate the area, by choosing the height of the re
 
 Now let's suppose we want a better approximation of the area. We can do this by increasing the number of subintervals (aka increasing the number of rectangles), and therefore the width of each subinterval will decrease.
 
-Now let's move on to the general case. Let $f(x)$ be a continuous function on the interval $[a, b]$ and we will divide the interval into $n$ subintervals of equal width $\Delta x = \frac{b - a}{n}$.
+Now let's move on to the general case. Let $f(x)$ be a continuous function on the interval $[a, b]$ and we will divide the interval into $n$ subintervals of equal width, 
+
+$$\Delta x = \frac{b - a}{n}$$
 
 Note the interesting fact that the width of the subintervals shouldn't necessarily be equal, but it definitely makes the calculations easier.
 
 Note that the endpoints of the subintervals are,
 
 $$
-\displaylines{x_0 = a \newline
-x_1 = a + \Delta x \newline
-x_2 = a + 2\Delta x \newline
-\vdots \newline
-x_i = a + i\Delta x \newline
-\vdots \newline
-x_{n-1} = a + (n-1)\Delta x \newline
-x_n = a + n\Delta x}
+\displaylines{
+    x_0 = a \newline
+    x_1 = a + \Delta x \newline
+    x_2 = a + 2\Delta x \newline
+    \vdots \newline
+    x_i = a + i\Delta x \newline
+    \vdots \newline
+    x_{n-1} = a + (n-1)\Delta x \newline
+    x_n = a + n\Delta x
+}
 $$
 
 Where the sum of all the subintervals is equal to the total interval, $a + n\Delta x = b$.
