@@ -38,7 +38,7 @@ Note the interesting fact that the width of the subintervals shouldn't necessari
 
 Note that the endpoints of the subintervals are,
 
-$$ 
+$$
 x_0 = a \\
 x_1 = a + \Delta x \\
 x_2 = a + 2\Delta x \\
@@ -46,7 +46,7 @@ x_2 = a + 2\Delta x \\
 x_i = a + i\Delta x \\
 \vdots \\
 x_{n-1} = a + (n-1)\Delta x \\
-x_n = a + n\Delta x \qquad
+x_n = a + n\Delta x
 $$
 
 Where the sum of all the subintervals is equal to the total interval, $a + n\Delta x = b$.
@@ -55,7 +55,7 @@ Next in each subinterval we can choose a point $x_i^*$, *note same as before the
 
 The area of the curve is then approximately the sum of the areas of the rectangles, $f(x_i^*)\Delta x$.
 
-$$ A \approx f(x_1^*)\Delta x + f(x_2^*)\Delta x + \cdots + f(x_n^*)\Delta x $$
+$$ A \approx f(x_1^{*})\Delta x + f(x_2^{*})\Delta x + \cdots + f(x_n^{*})\Delta x $$
 
 Using summation notation we can write the area as,
 
