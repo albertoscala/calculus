@@ -55,7 +55,7 @@ Next in each subinterval we can choose a point $x_i^*$, *note same as before the
 
 The area of the curve is then approximately the sum of the areas of the rectangles, $f(x_i^*)\Delta x$.
 
-$$ A \approx f(x_1^{\star})\Delta x + f(x_2^{\star})\Delta x + \cdots + f(x_n^{\star})\Delta x $$
+$$ A \approx f(x_1^{\ast})\Delta x + f(x_2^{\ast})\Delta x + \cdots + f(x_n^{\ast})\Delta x $$
 
 Using summation notation we can write the area as,
 
