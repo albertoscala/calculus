@@ -6,6 +6,7 @@
   - [Table of Contents](#table-of-contents)
   - [Definite Integral](#definite-integral)
     - [Area Problem](#area-problem)
+    - [How to calculate the Definite Integral](#how-to-calculate-the-definite-integral)
 
 ## Definite Integral
 
@@ -78,3 +79,15 @@ Before we move on to the definition of the definite integral, let's take a look 
 In this case, the area of the curve will be negative, and the area of the region will be the sum of the areas of the rectangles.
 
 This might create a problem with more complex functions that are both above and below the x-axis, since we are interested in the area of the region, and we don't want to have negative values.
+
+### How to calculate the Definite Integral
+
+| f(x) | F(x) |
+|------|------|
+| $x^n$ | $\frac{x^{n+1}}{n+1} + C$ |
+| $e^x$ | $e^x + C$ |
+| $a^x$ | $\frac{a^x}{\ln(a)} + C$ |
+| $\frac{1}{x}$ | $\ln|x| + C$ |
+| $\sin(x)$ | $-\cos(x) + C$ |
+| $\cos(x)$ | $\sin(x) + C$ |
+| $\tan(x)$ | $-\ln{\abs{\cos(x)}} + C$ |
