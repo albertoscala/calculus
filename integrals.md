@@ -90,4 +90,4 @@ This might create a problem with more complex functions that are both above and 
 | $\frac{1}{x}$ | $\ln|x| + C$ |
 | $\sin(x)$ | $-\cos(x) + C$ |
 | $\cos(x)$ | $\sin(x) + C$ |
-| $\tan(x)$ | $-\ln{\abs{\cos(x)}} + C$ |
+| $\tan(x)$ | $-\ln{\|\cos(x)}\| + C$ |
